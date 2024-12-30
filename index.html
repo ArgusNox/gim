@@ -1,0 +1,154 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>
+            Gimnasio para Adultos Mayores
+        </title>
+        <script src="https://cdn.tailwindcss.com">
+  </script>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+            rel="stylesheet" />
+            <link rel="stylesheet" href="style.css">
+        <style>
+   @keyframes slide {
+    0% {
+     transform: translateX(0%);
+    }
+    20% {
+     transform: translateX(0%);
+    }
+    25% {
+     transform: translateX(-100%);
+    }
+    45% {
+     transform: translateX(-100%);
+    }
+    50% {
+     transform: translateX(-200%);
+    }
+    70% {
+     transform: translateX(-200%);
+    }
+    75% {
+     transform: translateX(-300%);
+    }
+    95% {
+     transform: translateX(-300%);
+    }
+    100% {
+     transform: translateX(0%);
+    }
+   }
+   .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+   }
+   .carousel-inner {
+    display: flex;
+    animation: slide 6s infinite;
+   }
+   .carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+   }
+  </style>
+    </head>
+    <body class="bg-gray-100 font-roboto">
+        <div class="container mx-auto p-4">
+            <!-- Header -->
+            <header class="text-center mb-6">
+                <h1 class="text-3xl font-bold text-gray-800">
+                    Gimnasio para Adultos Mayores
+                </h1>
+                <p class="text-gray-600 subtitulo">
+                    ¡Mantente activo y saludable con Maru!
+                </p>
+            </header>
+            <!-- Banner -->
+            <div class="mb-6">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img
+                                alt="Grupo de adultos mayores haciendo ejercicios en el gimnasio"
+                                class="rounded-lg shadow-md" height="200"
+                                src="https://storage.googleapis.com/a1aa/image/jcpESOePdkUUKK9YeAcdE8iM0QFzbPTtrxxWCYq5AwxEnGAUA.jpg"
+                                width="300" />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                alt="Adultos mayores participando en una clase de yoga"
+                                class="rounded-lg shadow-md" height="200"
+                                src="https://storage.googleapis.com/a1aa/image/5z8G7CD4qybeX6o2xKEAodomKZDVWjdD0zCfg2JxF3fBONAoA.jpg"
+                                width="300" />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                alt="Grupo de abuelitos haciendo gimnasia en un parque"
+                                class="active" height="300"
+                                src="https://storage.googleapis.com/a1aa/image/C6qjSMIqrHZIHByZKtcCuLQ80HXLnokW1urZVcadi91PqBAF.jpg"
+                                width="300" />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                alt="Adultos mayores usando máquinas de ejercicio en el gimnasio"
+                                class="rounded-lg shadow-md" height="200"
+                                src="https://storage.googleapis.com/a1aa/image/gVkfZxhUALw5TqbEq7ewHi3DROk9U8RL531F4Rb9wi0CnGAUA.jpg"
+                                width="300" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action Buttons -->
+            <div class="text-center mb-6 botones">
+                <a
+                    class="bg-green-500 text-white py-2 px-4 rounded-full shadow-md inline-block mb-2"
+                    href="https://wa.me/5492613874992">
+                    Consultar
+                    <i class="fab fa-whatsapp">
+                    </i>
+                </a>
+                <a
+                    class="bg-blue-500 text-white py-2 px-4 rounded-full shadow-md inline-block mb-2"
+                    href="https://wa.me/5492613874992">
+                    Sacar Turno
+                    <i class="fab fa-whatsapp">
+                    </i>
+                </a>
+                <a
+                    class="bg-red-500 text-white py-2 px-4 rounded-full shadow-md inline-block"
+                    href="https://wa.me/5492613874992">
+                    Inscribirse
+                    <i class="fab fa-whatsapp">
+                    </i>
+                </a>
+            </div>
+            <!-- Map -->
+            <div class="mb-6">
+                <iframe allowfullscreen height="450" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.06800879515!2d-68.8111937111448!3d-32.896370105579805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0eca0cdf0bb5%3A0xaf8c52842b56663e!2sFleming%20278%2C%20M5519%20DUL%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1735570505125!5m2!1ses!2sar"
+                    style="border:0;" width="100%">
+                </iframe>
+            </div>
+            <!-- Directions Button -->
+            <div class="text-center">
+                <a
+                    class="bg-yellow-500 text-white py-2 px-4 rounded-full shadow-md inline-block"
+                    href="https://www.google.com/maps/dir/?api=1&amp;destination=Fleming+278,+Mendoza"
+                    style="font-size: 20px;">
+                    Cómo llegar
+                    <i class="fas fa-map-marker-alt">
+                    </i>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
